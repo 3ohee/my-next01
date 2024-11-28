@@ -3,6 +3,7 @@
 // layout 이 필요없는 간단한 페이지에서는 생략 가능
 
 import Link from "next/link";
+import './globals.css'
 
 // 페이지 전체의 공통 구조를 렌더링 할때 사용
 

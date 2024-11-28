@@ -3,6 +3,7 @@ import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow
 import axios from 'axios';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
+import './guestBookList.css'
 
 function Page(props) {
     const [list, setList] = useState([]);
